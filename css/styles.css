@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+}
+
+
+
+
+#header {
+    justify-content: space-between;
+}
+
+#header p {
+    color: white;
+    font-size: 24px;
+}
+
+#header ul {
+    gap: 10px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    background-color: #3882F6;
+}
+
+#header, #intro, #random, #quote, #call, .footer{
+    display: flex;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+#header, #intro, .footer {
+    background-color: #1F2937;
+}
+
+#header, #intro, #random, #quote {
+    padding-bottom: 80px;
+}
+
+#intro p {
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+#intro #title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #E5E7EB;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#placeHolder {
+    margin-left:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: white;
+    width: 500px;
+}
+
+#random {
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+}
+
+#random #infoText {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 30px;
+}
+
+#imgs div {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+}
+
+#imgs {
+    display: flex;
+    gap: 20px;
+}
+
+#imgs img {
+    border: solid 2px;
+    border-radius: 20px;
+    border-color: #3882F6;
+    width: 150px;
+    height: 150px;
+}
+
+#quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+#quote p{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    width: 850px;
+}
+
+#quote #author {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: -60px;
+}
+
+#call {
+    justify-content: center;
+}
+
+#call #call-container{
+    padding: 10px;
+    border-radius: 10px;
+    width: 900px;
+    height: 100px;
+    margin: 100px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#call p {
+    color: white;
+    font-weight: 100;
+}
+
+#call .call-button button {
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    background-color: #3882F6;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
